@@ -76,4 +76,7 @@ I drew 10000 samples of size 646 from all team kpm, where 646 is the count for t
 <iframe src="assets/hypo_test.html" width=800 height=600 frameBorder=0></iframe>
 Because I am testing if the high team kpm mean for VCS is due to chance alone, I compute p-value by find the mean of the number of repetitions that is larger than my observed mean.
 The resulting p-value is 0.0
-Since the p-value is smaller than the significance level of 0.01, we reject the null.
+Since the p-value is smaller than the significance level of 0.01, I reject the null.
+
+### Conclusion
+I conclude that out of all tier-one leagues, VCS(Vietnam Championship Series) league has the most “action-packed” games where "action-packed" measured by the average total team kpm(kill per minute) over all games in the league, and the amount of “action” in VCS league is significantly different than other leagues.
