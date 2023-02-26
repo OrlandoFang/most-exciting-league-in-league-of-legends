@@ -3,11 +3,12 @@ Orlando Fang's DSC 80 Project 3
 by Orlando Fang (tifang@ucsd.edu)
 
 ## Introduction and Question Identification
-The project aims performs an analysis on League of Legends Competitive Matches in 2022. Data obtained from Oracle’s Elixir. The dataset contains information of players and teams from over 10,000 League of Legends competitive matches.
+The project aims to perform an analysis on League of Legends Competitive Matches in 2022. Data obtained from Oracle’s Elixir. The dataset contains information of players and teams from over 10,000 League of Legends competitive matches.
 The analysis will utilize the dataset and answer the following questions:
 Looking at tier-one professional leagues, which league has the most “action-packed” games? 
 Action-packed measured by the average total team kpm(kill per minute) over all games in the league.
 Is the amount of “action” in this league significantly different than in other leagues? 
+
 For league of legends players and esports fans, this dataset and question is important because it provides information on the "activeness" of games in each league. Like many traditional sports, audiences of League of Legends Competitive Matches, for example myself, would perfer to watch exciting and action-packed matches instead of boring matches where the match goes slowly. My based by assessment on team kpm because team kpm measures how often kills are achieved, and a high team kpm means that fights and kills are often, thus meaning that the matches are action-packed. This dataset can help new and old audiences to find the best league to watch if they want to watch exciting games.
 These are a total 149232 rows and 123 columns in the original dataset. Of which I will need 6078 rows because I only need data on the games of tier-one leagues. I removed all rows regarding non-tier-one leagues and rows of individual players in each game. I only kept rows on team information, which contains values like team kpm.
 In this analysis, I used the following columns:
@@ -21,7 +22,7 @@ In this analysis, I used the following columns:
 
 ## Cleaning and EDA (Exploratory Data Analysis)
 ### Data Cleaning
-First I read in the csv file and generated a dataframe on the file. Because many columns are stored as 0 or 1 when they meant True or False, I want to change them to boolean. I first find all the columns that contains only two unique values, of which I found the columns that can only contains 0 or 1 and changed them to boolean where 1 is replaced by True and 0 is replaced by 0. For all the column names that start with 'first' I knew it need to be changed to boolean because the columns storing data on 'first' can only be either True, the team got first on something, or False, the team failed to be the first on reaching objectives.
+First I read in the csv file downloaded from https://oracleselixir.com and generated a dataframe on the file. Because many columns are stored as 0 or 1 when they meant True or False, I want to change them to boolean. I first find all the columns that contains only two unique values, of which I found the columns that can only contains 0 or 1 and changed them to boolean where 1 is replaced by True and 0 is replaced by 0. For all the column names that start with 'first' I knew it need to be changed to boolean because the columns storing data on 'first' can only be either True, the team got first on something, or False, the team failed to be the first on reaching objectives.
 As shown in the dataframe below, I've successfully changed data values to booleans.
 Note that I only showed the columns with exactly 2 unique values because there is a total of 123 columns and I do not want to show them all. Also the columns I need to perform analysis later does not contains any values that should be boolean.
 
