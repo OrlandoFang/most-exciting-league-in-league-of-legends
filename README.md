@@ -55,17 +55,7 @@ The following scatter plot performs a bivariate analysis on the relationship bet
 
 ### Interesting Aggregates
 The following pivot table compares how does choosing different sides affect team kill per minute for different tier-one leagues. The significance of this table is that is shows the audiences which side is more action-packed, and audiences of different league can decide which side to watch based on their preference on action-packed matches. From the table we can see that the Red side teams in VCS have the highest mean team kpm, and for audiences of the PCS league, the Blue side is significantly more action-packed than the Red side.
-| league   |     Blue |      Red |
-|:---------|---------:|---------:|
-| CBLOL    | 0.456072 | 0.418165 |
-| LCK      | 0.342713 | 0.357575 |
-| LCS      | 0.36656  | 0.366808 |
-| LEC      | 0.420367 | 0.384361 |
-| LJL      | 0.382385 | 0.39612  |
-| LLA      | 0.414917 | 0.388797 |
-| LPL      | 0.437027 | 0.402299 |
-| PCS      | 0.460437 | 0.372922 |
-| VCS      | 0.5154   | 0.538168 |
+'| league   |     Blue |      Red |\n|:---------|---------:|---------:|\n| CBLOL    | 0.456072 | 0.418165 |\n| LCK      | 0.342713 | 0.357575 |\n| LCS      | 0.36656  | 0.366808 |\n| LEC      | 0.420367 | 0.384361 |\n| LJL      | 0.382385 | 0.39612  |\n| LLA      | 0.414917 | 0.388797 |\n| LPL      | 0.437027 | 0.402299 |\n| PCS      | 0.460437 | 0.372922 |\n| VCS      | 0.5154   | 0.538168 |'
 
 ## Assessment of Missingness
 ### NMAR Analysis
