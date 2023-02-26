@@ -1,4 +1,3 @@
-# most-exciting-league-in-league-of-legends
+# Most Exciting Professional League in League of Legends
 Orlando Fang's DSC 80 Project 3
-
-hi
+by Orlando Fang (tifang@ucsd.edu)
