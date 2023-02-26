@@ -23,7 +23,7 @@ In this analysis, I used the following columns:
 ### Data Cleaning
 First I read in the csv file and generated a dataframe on the file. Because many columns are stored as 0 or 1 when they meant True or False, I want to change them to boolean. I first find all the columns that contains only two unique values, of which I found the columns that can only contains 0 or 1 and changed them to boolean where 1 is replaced by True and 0 is replaced by 0. For all the column names that start with 'first' I knew it need to be changed to boolean because the columns storing data on 'first' can only be either True, the team got first on something, or False, the team failed to be the first on reaching objectives.
 As shown in the dataframe below, I've successfully changed data values to booleans.
-Note that I only showed the columns with exactly 2 unique values because there is a total of 123 columns and I do want to show them all. Also the columns I need to perform analysis later does not contains any values that should be boolean.
+Note that I only showed the columns with exactly 2 unique values because there is a total of 123 columns and I do not want to show them all. Also the columns I need to perform analysis later does not contains any values that should be boolean.
 
 |    | datacompleteness   |   year | playoffs   | side   | result   | firstblood   | firstbloodkill   | firstbloodassist   | firstbloodvictim   |   firstdragon |   firstherald |   firstbaron |   firsttower |   firstmidtower |   firsttothreetowers |
 |---:|:-------------------|-------:|:-----------|:-------|:---------|:-------------|:-----------------|:-------------------|:-------------------|--------------:|--------------:|-------------:|-------------:|----------------:|---------------------:|
