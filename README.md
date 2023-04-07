@@ -1,6 +1,6 @@
 # Most Exciting Professional League in League of Legends
 by Orlando Fang (tifang@ucsd.edu)
-### I used the same dataset to create a prediction model that predicts the roles of individual players given their post-game data with a 96.2% accuracy on unseen data. My process of creating and improving the prediction model can be found [in this link](https://orlandofang.github.io/league-of-legends-role-prediction/).
+#### I used the same dataset to create a prediction model that predicts the roles of individual players given their post-game data with a 96.2% accuracy on unseen data. My process of creating and improving the prediction model can be found [in this link](https://orlandofang.github.io/league-of-legends-role-prediction/).
 
 ## Introduction and Question Identification
 The project aims to perform an analysis on League of Legends Competitive Matches in 2022. Data obtained from Oracle’s Elixir. The dataset contains information of players and teams from over 10,000 League of Legends competitive matches.
