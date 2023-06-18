@@ -1,5 +1,3 @@
-# Most Exciting Professional League in League of Legends
-by Orlando Fang (tifang@ucsd.edu)
 #### I used the same dataset to create a prediction model that predicts the roles of individual players given their post-game data with a 96.2% accuracy on unseen data. My process of creating and improving the prediction model can be found [in this link](https://orlandofang.github.io/league-of-legends-role-prediction/).
 
 ## Introduction and Question Identification
